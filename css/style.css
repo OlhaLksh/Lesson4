@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@font-face {
+font-family:"Larsseit";
+src: url("../fonts/Larsseit-Regular.woff2") format("woff2"), url("../fonts/Larsseit-Regular.woff") format("woff");
+font-display: swap;
+font-weight: 400;
+font-style: normal;
+}
+
+@font-face{
+	font-family:"Lato";
+	src: url("../fonts2/Lato/Lato-Regular.woff2") format("woff2"), url("../fonts2/Lato/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family:"Lato";
+	src: url("../fonts2/Lato/Lato-Black.woff2") format("woff2"), url("../fonts2/Lato/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face{
+	font-family:"Lato";
+	src: url("../fonts2/Lato/Lato-Bold.woff2") format("woff2"), url("../fonts2/Lato/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+	}
+@font-face{
+	font-family:"ArbatC";
+	src: url("../fonts/ArbatC.woff2") format("woff2"), url("../fonts/ArbatC.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+body{
+	font-family:"Larsseit";
+}
+#top{
+	font-family:"Russo One";
+}
+.headline{
+	font-family:"Pacifico";
+}
+.times{
+	font-family: "Lato";
+	font-weight: 900;
+}
+.times span{
+	font-family:"Roboto";
+	color: blue;
+}
+.pinkfont{
+	color: hotpink;
+}
+.pinkfont .greenfont{
+	color: darkgreen;
+	font-family:"ArbatC";
+	font-size: larger;
+}
+
+.multicolor >p{
+	color: orange;
+}
+a{
+	color:darkblue;
+}
+.text +p{
+	color: darkmagenta;
+}
+.secondblock{
+	font-family:"ArbatC";
+	color: rgb(158, 152, 93);
+}
+.push span{
+	color: darkcyan;
+}
+.secondblock .push{
+	color: mediumslateblue;
+}
+.multicolor .lorem{
+	color: lightcoral;
+	font-family: "Russo One";
+}
+.test{
+	font-family: 'Times New Roman', Times, serif;
+	color: blue;
+}
+.clear *{
+	color: chartreuse;
+}
